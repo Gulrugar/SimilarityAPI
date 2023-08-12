@@ -2,7 +2,7 @@ export const nodejs = `const axios = require("axios");
 
 const options = {
     method: 'POST',
-    url: 'https://similarityapi.com/api/v1/similarity',
+    url: 'https://similarity-api-azure.vercel.app/api/v1/similarity',
     data: {
       text1: 'First text',
       text2: 'Second text'
